@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 14px 0;
+}
+
+.header-image img {
+    height: 72px;
+}
+
+.header-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.header-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.content {
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-main-write {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 28px;
+}
+
+.content-main-write-title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+}
+
+.content-main-write-subtitle {
+    font-family: 'Sarala', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: #ECD6C4;
+}
+
+.content-main-write-button {
+    font-family: 'Sarala', sans-serif;
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 55px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2F2325;
+    cursor: pointer;
+}
+
+.content-main-write-button:hover {
+    background-color: #e0cbba;
+}
+
+.content-main-image {
+    height: 400px;
+}
+
+.content-second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 48px;
+}
+
+.content-second-title {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+
+.content-second-phrase {
+    font-family: 'Sarala', sans-serif;
+    color: #ECD6C4;
+}
+
+.footer {
+    border-top: 0.4px solid #FFF2E7;
+    padding: 28px;
+}
+
+.footer-image {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
